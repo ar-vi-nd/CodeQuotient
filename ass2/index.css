@@ -1,0 +1,18 @@
+#fst_cont{
+    background-color: rgb(49, 171, 219);
+    height: 600px;
+    margin-top: 100px;
+}
+#input{
+    font-weight: lighter;
+    font-size: 50px;   
+}
+.left{
+    border: 2px solid black;
+    height: 100%;
+}
+
+#tasks{
+    overflow: auto;
+    height: 80%;
+}
