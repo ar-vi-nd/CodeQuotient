@@ -29,6 +29,7 @@
 
 #controw{
     justify-content: center;
+    margin-top: 200px;
 }
 .stime{
     display: flex;
