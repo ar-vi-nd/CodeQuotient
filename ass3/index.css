@@ -1,0 +1,56 @@
+.container{
+    font-size: 50px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+
+.button{
+    border-radius: 50%;
+    align-self: center;
+}
+
+.buttonholder{
+    /* background-color: rgb(75, 104, 104); */
+
+    display: flex;
+    justify-content: center;
+}
+
+.lapdet{
+    display: flex;
+    justify-content: space-around;
+    
+    height: 300px;
+    /* background-color: aqua; */
+    overflow: auto;
+    
+
+}
+
+#controw{
+    justify-content: center;
+}
+.stime{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.buttond{
+    display: none;
+}
+.savi{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#button4{
+    background-color: rgb(196, 32, 32);
+}
+
+#lapcount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
