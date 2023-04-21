@@ -1,0 +1,123 @@
+/* height of 460px and width of 220px; */
+body{
+    background-color: blanchedalmond;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: aliceblue;
+}
+.container{
+    height: 460px;
+    width: 220px;
+    background-color: rgb(74, 62, 51);
+    border-radius: 2%;
+
+    /* margin: auto; */
+    
+}
+
+.timerdisplay{
+    /* width: 90%; */
+    height: 40%;
+    background-color: rgb(234, 233, 229);
+    margin: auto;
+    /* box-sizing:border-box; */
+    /* width: 100%; */
+    /* display: inline-flex; */
+    /* text-align: center;
+    align-self: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(16, 143, 143);
+    
+
+}
+
+.class1{
+    /* padding: 3%; */
+height: 460px;}
+
+.class2{
+    
+    height: 100%;
+}
+.class3{
+    text-align: center;
+    height: 20%;
+    background-color: rgb(73, 60, 49);
+    margin: auto;
+    /* padding-top: 2%; */
+    font-size: x-large;
+    border-bottom: 1px dotted rgb(253, 253, 253);
+}
+.class4{
+    text-align: center;
+    height: 60%;
+    background-color: rgb(73, 60, 49);
+    font-size: x-small;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+}
+.class5{
+    text-align: center;
+    height: 20%;
+    background-color: rgb(73, 60, 49);
+    padding: 2%;
+}
+
+.setterdisplay{
+    height: 50%;
+    background-color: rgb(73, 60, 49);
+    margin: auto;
+}
+.leftrow{
+    height: 100%;
+}
+.remtime{
+    font-size: x-large;
+    color: #00a0b0;
+}
+
+.navbutton{
+    height: 100%;
+    width: 150%;
+    margin-left: -5px;
+    background-color: rgb(28, 24, 21);
+
+    color: white;
+    /* margin: auto; */
+}
+.sbtime{
+    align-self: center;
+}
+
+#pause{
+    display: none;
+   
+
+
+    
+}
+
+#pb{
+    background-color: rgb(28, 24, 21);
+    color: white;
+
+}
+#ssb{
+    background-color: rgb(28, 24, 21);
+    color: white;
+
+
+}
+#rb{
+    background-color: rgb(28, 24, 21);
+    color: white;
+
+
+}
+
+
