@@ -33,6 +33,9 @@ function linc() {
 
 lminus.addEventListener("click", ldec)
 function ldec() {
+    if(lremtime.innerHTML==1){
+        return
+    }
     lremtime.innerHTML--;
     if(lremtime.innerHTML<10){
         lremtime.innerHTML="0"+lremtime.innerHTML
@@ -49,6 +52,9 @@ function rinc() {
 
 rminus.addEventListener("click", rdec)
 function rdec() {
+    if(rremtime.innerHTML==1){
+        return
+    }
     rremtime.innerHTML--
     if(rremtime.innerHTML<10){
         rremtime.innerHTML="0"+rremtime.innerHTML
@@ -70,7 +76,7 @@ function startf() {
         sec.innerHTML = "00"
         sb.innerHTML = "SESSION"+count
     }
-    sst = setInterval(timerdec, 1000)
+    sst = setInterval(timerdec, 10)
 
 }
 
