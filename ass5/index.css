@@ -1,0 +1,188 @@
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#head{
+    height: 15%;
+    background-color: rgb(0, 128, 128);
+    /* text-align: center; */
+}
+#headcol{
+    height: 50%;
+    align-self: center;
+    display: flex;
+     align-items: center;
+     font-size: 5vh;
+     font-weight: bolder;
+     color: whitesmoke;
+}
+
+#bbooddyy{
+    height: 85%;
+}
+
+#qcont{
+    display: flex;
+    height: 15%;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.qc{
+    border: 1px solid black;
+    width: 40%;
+    height: 65%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.qlist{
+    background-color: aquamarine;
+    height: 80%;
+    padding: 3%;
+    overflow: auto;
+}
+
+.nqb{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nqb1{
+    width: 80%;
+}
+
+.star{
+    background: gold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+#right{
+    background-color: beige;
+    height: 95%;
+    
+}
+
+#rcont{
+    background-color: cadetblue;
+    min-height: 80%;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* justify-content: space-around;
+    align-items: center; */
+    /* display: none; */
+}
+#rcont1{
+    background-color: cadetblue;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* justify-content: space-around;
+    align-items: center; */
+    /* display: none; */
+}
+
+.hidden{
+    display: none;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+
+#rarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    /* height: 100%; */
+}
+#rarea1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    /* height: 100%; */
+    height: 100%;
+}
+
+#textb{
+    width: 50%;
+    padding: 1%;
+}
+
+#texta{
+    padding: 2%;
+}
+
+#sbutton{
+    width: 10%;
+    
+}
+#textb1{
+    width: 50%;
+    padding: 1%;
+}
+
+#texta1{
+   padding: 2%;
+}
+
+#sbutton1{
+    width: 10%;
+    
+}
+
+.sub{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#Descriptionn{
+    background-color:wheat;
+    height: 25%;
+    width: 100%;
+    word-wrap: break-word;
+    overflow: auto;
+    padding: 2%;
+}
+
+#respon{
+    height: 30%;
+    overflow: auto;
+    background-color: antiquewhite;
+    word-wrap: break-word;
+    padding: 2%;
+}
+
+.butholder{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    
+}
+.buttons{
+    height: 20px;
+    width: 20px;
+    margin-top: 2%;
+
+}
+
+.twrap{
+    /* word-wrap: break-word; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
