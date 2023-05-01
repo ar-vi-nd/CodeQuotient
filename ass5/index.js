@@ -336,7 +336,8 @@ function starf(starbutt, node) {
     console.log(node)
     if (starbutt.getAttribute("value") == 0) {
         console.log("inhererere")
-        starbutt.setAttribute("value", "1")
+        starbutt.setAttribute("value","1")
+        console.log(starbutt.getAttribute("value"))
         starbutt.setAttribute("class", "star")
         lupdate(node)
     }
@@ -791,7 +792,8 @@ function lupdate(node) {
     for (let i = 0; i < length; i++) {
         if (node.id == qarr[i][0]) {
             console.log(qarr[i][3][0])
-            qarr[i][3][0] = node.children[1].getAttribute("value")
+            console.log(node)
+            qarr[i][3][0] = node.children[2].getAttribute("value")
             console.log(qarr[i][3][0])
 
 
@@ -825,7 +827,7 @@ function lstore(node) {
 
         localStorage.setItem("qlist", file)
 
-        console.log(file)
+        // console.log(file)
 
 
 
