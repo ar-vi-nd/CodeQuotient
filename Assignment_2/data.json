@@ -1,0 +1,50 @@
+{
+	"id": "645246344b20d4d020ef425f",
+	"children": [
+		{
+			"name": "Campbell Bryant",
+			"age": 1
+		},
+		{
+			"name": "Kaylor William",
+			"age": 6
+		},
+		{
+			"name": "Hill Meadows",
+			"age": 9
+		},
+		{
+			"name": "Asra Simmons",
+			"age": 0
+		},
+		{
+			"name": "Gray Norris",
+			"age": 2
+		}
+	],
+	"currentJob": {
+		"title": "Developer",
+		"salary": "mask;"
+	},
+	"jobs": [
+		{
+			"title": "medic",
+			"salary": "R$ 8.593,90"
+		},
+		{
+			"title": "teacher",
+			"salary": "R$ 5.367,80"
+		}
+	],
+	"maxRunDistance": 1.9,
+	"cpf": "131.166.769-50",
+	"cnpj": "32.887.426/0001-03",
+	"pretendSalary": "R$ 6.190,56",
+	"age": 27,
+	"gender": "male",
+	"firstName": "Jody",
+	"lastName": "Reed",
+	"phone": "+55 (83) 97040-9378",
+	"address": "437 Roosevelt Place - Garnet, Montana, US Minor Outlying Islands.",
+	"hairColor": "red"
+}
